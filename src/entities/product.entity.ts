@@ -40,7 +40,7 @@ category:CategoryEntity
 })
 title:string;
 
-@Column('number',{
+@Column('integer',{
     name: 'price',
     nullable: false,
     comment: 'product price',
